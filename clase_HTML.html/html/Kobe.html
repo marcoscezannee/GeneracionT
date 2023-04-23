@@ -5,18 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../estilos/estilos.css" type="text/css">
 </head>
 <body>
-    <h1>Kobe Bryant</h1>
-    <ul>
-        <il>Posicion</il>
-        <p>Escolta</p>
-        <il>estatura</il>
-        <p>1.98m</p>
-    </ul>
-    <hr>
+    <header>
+        <h1>kobe bryant</h1>
+    </header> 
     
-    <a href="index.html"><p>inicio</p></a>
-    <a href="kevin.html"><p>Kevin Durant</p></a>
-</body>
+    <aside>
+        <h2>Seccion de comentrios</h2>
+        <form action="/formulario" method="post">
+            <table>
+                <label for="Nombre">Nombre</label>
+                <input name="Nombre" type="text" placeholder="Nombre"/>
+                <br>
+                <label for="apellido">Apedillo</label>
+                <input type="text" id="apellido" name="Apellido" placeholder="Apellido" />
+                <br>
+                <textarea style="margin-left: 60px;" rows="10" cols="18" name="comentario" id="Comentario" placeholder="ingrese comentario"></textarea>
+                <br>
+                <ul class="separate">
+                    <button type="reset">reset</button>
+                    <button type="submit">Enviar</button>
+                </ul>
+            </table>
+        </form>
+    
+    </aside>
+   
+    <div>
+        <section>
+            <ol style="list-style-type: circle;">
+                <li><strong>Posicion</strong></il>
+                    <p>escolta</p>
+                <li><strong>Estatura</strong></il>
+                    <p>1.98m</p>
+            </ol>
+        </section>
+            <br>
+            <br>
+            <br>
+
+            <div class="clearfix">
+                <article>
+                    <a href="../index.html">
+                        inicio
+                    </a>
+                    <br>
+                    <a href="../html/kevin.html">
+                        kevin durant
+                    </a>
+                </article>
+
+            </div>
+    </div>
+    
+<hr>
+    <footer>
+        <h2>Contacto</h2>
+        <ul>
+            <a href="https://www.instagram.com/marcoscezanne_" target="_blank"><IMG SRC="../imagenes/instagram.gif" alt="instagram" ></a>
+            <a href= mailto: marcoscezannehenriquez@manantiales.edu.ar target="_blank"><img src="../imagenes/gmail.gif" alt="gmail"></a>
+        </ul>
+    </footer>
 </html>
