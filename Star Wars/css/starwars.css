@@ -1,0 +1,21 @@
+.imperio{
+    background-color: red;
+}
+.rebeldes{
+    background-color: blue;
+}
+#vader, #luke{
+    font-size: 30px;
+    list-style-type: none;
+}
+#luke{
+    font-style: italic;
+}
+.stormtrooper{
+    list-style-type: none;
+    border: 2px dashed black;
+    margin-right: 50%;
+    border-radius: 10px;
+
+}
+
